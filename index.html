@@ -11,6 +11,11 @@
     content="Terms and Conditions for Farmer Community, a farming application for agricultural record keeping, crop and animal management, AI assistance, weather information, soil sensors, supported camera devices, community interaction, jobs, and marketplace activities."
   >
 
+  <!-- Google AdSense: site verification + Auto ads -->
+  <meta name="google-adsense-account" content="ca-pub-2606126305565597">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2606126305565597"
+    crossorigin="anonymous"></script>
+
   <style>
     * {
       box-sizing: border-box;
@@ -138,6 +143,27 @@
       opacity: 0.95;
     }
 
+    /* Ad slot wrapper: sits directly below the header, above the main
+       content card, so it's visible on load without scrolling but
+       doesn't interrupt the legal text itself. */
+    .ad-slot {
+      max-width: 950px;
+      margin: 28px auto 0;
+      padding: 10px 20px;
+      text-align: center;
+      overflow: hidden;
+      min-height: 90px;
+    }
+
+    .ad-slot span.label {
+      display: block;
+      font-size: 11px;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      color: #607d8b;
+      margin-bottom: 6px;
+    }
+
     @media (max-width: 700px) {
       header {
         padding: 40px 18px;
@@ -160,6 +186,10 @@
       h2 {
         font-size: 22px;
       }
+
+      .ad-slot {
+        min-height: 100px;
+      }
     }
   </style>
 </head>
@@ -171,6 +201,25 @@
   <p>Terms &amp; Conditions</p>
   <p class="last-updated">Last Updated: August 20, 2026</p>
 </header>
+
+<!-- ================= AD SLOT: above-the-fold, below header ================= -->
+<!-- Visible on load without scrolling, sitting between the header and the
+     legal content so it doesn't interrupt reading. Replace data-ad-slot
+     below with the actual ad unit ID from your AdSense dashboard
+     (Ads > By ad unit > Display ads). The publisher ID is already wired. -->
+<div class="ad-slot">
+  <span class="label">Advertisement</span>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2606126305565597"
+       data-ad-slot="REPLACE_WITH_YOUR_AD_UNIT_ID"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- ============================================================================ -->
 
 <div class="container">
 
